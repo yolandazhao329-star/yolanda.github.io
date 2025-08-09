@@ -1,11 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8" />
-    <title>欢迎来到我的个人网站</title>
+  <meta charset="UTF-8" />
+  <title>欢迎来到 Yolanda Zhao 的主页</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+      overflow: hidden;
+    }
+
+    .container {
+      text-align: center;
+      animation: fadeInUp 1.5s ease forwards;
+      opacity: 0;
+      transform: translateY(30px);
+      max-width: 600px;
+      padding: 20px;
+      background: rgba(255 255 255 / 0.1);
+      border-radius: 15px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+      backdrop-filter: blur(10px);
+    }
+
+    h1 {
+      font-weight: 700;
+      font-size: 2.5rem;
+      margin-bottom: 0.5em;
+      letter-spacing: 2px;
+      line-height: 1.2;
+    }
+
+    h2 {
+      font-weight: 400;
+      font-size: 1.8rem;
+      letter-spacing: 1px;
+      line-height: 1.4;
+      margin-top: 0;
+    }
+
+    strong {
+      font-weight: 700;
+      color: #ffe066;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
 </head>
 <body>
-    <h1>Hello, GitHub Pages!</h1>
-    <p>这是我的第一个个人网站。</p>
+  <div class="container">
+    <h1>Hello, I’m <strong>Yolanda Zhao</strong>. Welcome to my website!</h1>
+    <h2>你好，我是 <strong>赵永芳</strong>，欢迎来到我的网站！</h2>
+  </div>
 </body>
 </html>
